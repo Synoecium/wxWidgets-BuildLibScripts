@@ -9,4 +9,7 @@ Set of shell scripts to get sources and build from the sources in one click dyna
 	- [ ] Windows [MinGW](https://www.mingw-w64.org/downloads/)
 
 ## Usage
-Go to the platform folder and run desired script. If build is successful there will be subfolder "wxWidgets" with downloaded sources and built libraries (built libraries located at "lib" subsubfolder) 
+Go to the platform folder and run desired script. If build is successful there will be subfolder "wxWidgets" with downloaded sources and built libraries (built libraries located at "lib" subsubfolder)
+
+## Known issues
+- for Windows platform path to executables for all requirement programs should be added to "Path" environment variable ([how-to](https://www.computerhope.com/issues/ch000549.htm))
